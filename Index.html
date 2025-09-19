@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Color Memory Match</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <h1>🎨 Color Memory Match</h1>
-  <div id="game-board"></div>
+<html>
 
-  <script src="script.js"></script>
+<head>
+    <title>Colorful Memory Match Game</title>
+        <link rel="stylesheet" href="./colorfulGame.css">
+</head>
+
+<body>
+    <h1>Colorful Memory Match Game</h1>
+    <div class="container">
+        <div id="game-container">
+         <!-- Cards will be generated dynamically using JavaScript -->
+        </div>
+        <div class="startMain">
+            <p id="score">Score: 0</p>
+            <p id="timer">Time Left: 30</p>
+            <button id="startbtn">Start/Restart</button>
+        </div>
+    </div>
+    <script src="./colorful_memory_game.js"></script>
 </body>
 </html>
