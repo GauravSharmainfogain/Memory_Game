@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#game-board {
+  width: 400px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  gap: 10px;
+}
+
+.card {
+  width: 90px;
+  height: 90px;
+  background: #999;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card.flipped {
+  background: none;
+}
